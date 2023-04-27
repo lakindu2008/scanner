@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    
+    background: url("https://source.unsplash.com/cPccYbPrF-A");
+    background-position: center;
+    background-size: cover;
+}
+.form-box{
+    position: relative;
+    width: 500px;
+    height: 450px;
+    background: transparent;
+    border: 2px solid rgba(255,255,255,0.5);
+    border-radius: 20px;
+    backdrop-filter: blur(15px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+h2{
+    font-size: 2em;
+    color: #fff;
+    text-align: center;
+    align-items: center;
+}
+.inputbox{
+    position: relative;
+    margin: 5px 6;
+    width: 300px;
+    border-bottom: 2px solid #fff;
+}
+
+.inputbox label{
+    position: relative;
+    top: 50%;
+    left: 0px;
+    transform: translateY(-50%);
+    color: #fff;
+    font-size: 1em;
+    pointer-events: none;
+    transition: .5s;
+}
+
+{
+
+top: -5px;
+}
+
+.inputbox input {
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    align-items: center;
+    
+    color: #fff;
+    text-align: center;
+}
+.inputbox ion-icon{
+    position: absolute;
+    
+    color: #fff;
+    font-size: 1.2em;
+    top: 20px;
+    text-align: center;
+    align-items: center;
+   
+}
+button{
+    width: 100%;
+    height: 40px;
+    border-radius: 20px;
+    background: #fff;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+    text-align: center;
+    align-items: center;
+    color: black;
+}
+.bottom{
+
+    display: flex;
+    flex-direction: row;
+    
+    color: #fff;
+    margin-top: 20px;
+    text-align: center;
+    align-items: center;
+}
+label a{
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+}
+.inputbox{
+    text-align: center;
+}
+.main1{
+    text-decoration: none;
+}
+.left{
+    align-items: center;
+}
+h3{
+    width: 100%;
+    height: 40px;
+    border-radius: 50px;
+    
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 400;
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+}
